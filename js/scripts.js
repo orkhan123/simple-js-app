@@ -19,9 +19,9 @@ let pokemonRepository = (function () {
         if (pokemon.height < 0.5) {
         document.write (pokemon.name + ", height: " + pokemon.height + " "+ "This is a small pokemon" + "<p>");
         } else if (pokemon.height > 0.5 && pokemon.height <= 1.5) {
-        document.write (pokemon.name + ", height: " + pokemon.height + " "+ "This is a small pokemon" + "<p>");
+        document.write (pokemon.name + ", height: " + pokemon.height + " "+ "This is a medium pokemon" + "<p>");
         } else {
-        document.write (pokemon.name + ", height: " + pokemon.height + " "+ "This is a small pokemon" + "<p>");
+        document.write (pokemon.name + ", height: " + pokemon.height + " "+ "This is a big pokemon" + "<p>");
         }
       });
     }
